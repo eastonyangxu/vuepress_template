@@ -1,0 +1,23 @@
+{
+  "name": "md_doc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.9.9",
+    "vuepress": "^1.9.9",
+    "vuepress-plugin-cat": "^1.0.3",
+    "vuepress-plugin-container": "^2.1.5",
+    "vuepress-plugin-medium-zoom": "^1.1.9"
+  },
+  "dependencies": {}
+}
