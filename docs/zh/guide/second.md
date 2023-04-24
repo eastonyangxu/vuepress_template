@@ -77,3 +77,34 @@
 :::tip 传送门
 [GitHub Pages部署](https://v1.vuepress.vuejs.org/zh/guide/deploy.html#github-pages)
 :::
+
+
+## 自定义components
+输入<br/>
+::: tip demo.vue
+``` vue
+<style scoped lang="css">
+h1 {
+  color: red;
+  font-size: 20px;
+}
+</style>
+
+<template>
+  <h1>这是我第一个自定义的components</h1>
+</template>
+
+<script>
+export default {
+  name: "demo",
+};
+</script>
+```
+使用componnets：
+``` md
+<demo/>
+```
+:::
+
+输出<br/>
+<demo/>
